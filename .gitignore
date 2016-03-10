@@ -14,5 +14,8 @@
 # Ignore Byebug command history file.
 .byebug_history
 
+# Ignore real dotenv settings
+.env.development
+
 # Allow .ruby-version
 !.ruby-version

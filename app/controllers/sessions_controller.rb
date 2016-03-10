@@ -1,7 +1,9 @@
 class SessionsController < ApplicationController
   def create
     auth = request.env["omniauth.auth"]
-    pp auth
-    redirect_to ready_bots_path
+    result = Services::StartsSlackBot.for_auth(auth)
+    if result.success?
+      redirect_to ready_bots_path
+    end
   end
 end

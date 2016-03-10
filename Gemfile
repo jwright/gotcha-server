@@ -10,6 +10,7 @@ gem "turbolinks"
 
 gem "foreman"
 gem "gotcha-bot", path: "../gotcha-bot"
+gem "light-service"
 gem "omniauth-slack"
 
 group :development, :test do

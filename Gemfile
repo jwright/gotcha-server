@@ -8,6 +8,7 @@ gem "coffee-rails", "~> 4.1.0"
 gem "jquery-rails"
 gem "turbolinks"
 
+gem "gotcha-bot", path: "../gotcha-bot"
 gem "omniauth-slack"
 
 group :development, :test do

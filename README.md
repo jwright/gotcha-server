@@ -13,6 +13,7 @@ Handles the authorization from Slack and stores the information about the team, 
 
 1. Deploy this app to Heroku (or your choice of hosting)
 1. Update the `SLACK_CLIENT_ID` and `SLACK_SECRET` in the environment to your OAuth client id and client secret
+1. Run the migrations `bundle exec rake db:migrate`
 
 ## CONTRIBUTING
 

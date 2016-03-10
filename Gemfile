@@ -8,8 +8,11 @@ gem "coffee-rails", "~> 4.1.0"
 gem "jquery-rails"
 gem "turbolinks"
 
+gem "omniauth-slack"
+
 group :development, :test do
   gem "byebug"
+  gem "dotenv-rails"
   gem "sqlite3"
 end
 
